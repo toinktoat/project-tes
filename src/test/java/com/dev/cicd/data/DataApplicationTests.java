@@ -9,5 +9,10 @@ class DataApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
+        @Test
+	void applicationContextTest() {
+		DataApplication.main(new String[] {});
+	}
+	
 }
